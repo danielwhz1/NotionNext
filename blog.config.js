@@ -247,13 +247,34 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-    
+
+    {
+      name: 'The Road Of Lords',
+      artist: '松本孝弘',
+      url: 'https://music.163.com/song/media/outer/url?id=34723768.mp3',
+      cover:
+            'https://image1.gamme.com.tw/news2/2013/89/25/p6CSn5_elqWW.jpg'
+    },
+    {
+      name: '華',
+      artist: '松本孝弘',
+      url: 'https://music.163.com/song/media/outer/url?id=28318390.mp3',
+      cover:
+            'https://m.media-amazon.com/images/I/51R8DB00KTL._UF1000,1000_QL80_.jpg'
+    },
+    {
+      name: 'The Song of Life (New Version)',
+      artist: '鳥山雄司',
+      url: 'https://music.163.com/song/media/outer/url?id=1454649796.mp3',
+      cover:
+            'https://images.app.goo.gl/drQJGJS9MmYWe1yy8.jpg'
+    },
     {
       name: 'S.T.A.Y.',
       artist: 'Hans Zimmer',
       url: 'https://music.163.com/song/media/outer/url?id=477933827.mp3',
       cover:
-            'https://images.app.goo.gl/drQJGJS9MmYWe1yy8.jpg'
+            'https://live.staticflickr.com/65535/52211883534_f45cb76810_z.jpg'
     },
     {
       name: '风を共に舞う気持ち',
